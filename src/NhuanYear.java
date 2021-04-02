@@ -15,6 +15,26 @@ public class NhuanYear {
             System.out.println("Năm "+ year1 + " không phải năm nhuận ");
         }
         System.out.printf("%d",year1);
+
+
+//        boolean isLeapYear = false;
+//
+//        if(year % 4 == 0){
+//            if(year % 100 == 0){
+//                if(year % 400 == 0){
+//                    isLeapYear = true;
+//                }
+//            } else {
+//                isLeapYear = true;
+//            }
+//        }
+//
+//        if(isLeapYear){
+//            System.out.printf("%d is a leap year", year);
+//        } else {
+//            System.out.printf("%d is NOT a leap year", year);
+//        }
+
     }
 
 }
